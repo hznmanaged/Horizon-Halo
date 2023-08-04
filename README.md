@@ -37,6 +37,16 @@ The file must be prepare in a particular manner. Structure the file with these g
 
 Once the file is prepared, save it as an XML file.
 
+### Required API scopes
+
+The API client ID used must have these scopes:
+- read:tickets
+- edit:tickets
+- read:customers
+- read:projects
+- edit:projects
+
+
 ### Command usage
 This is a sample of the command:
 
