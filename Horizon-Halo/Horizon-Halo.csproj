@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6</TargetFramework>
+    <RootNamespace>Horizon_Halo</RootNamespace>
+    <BaseOutputPath />
+    <Company>Horizon Managed Services</Company>
+    <Authors>Horizon Managed Services</Authors>
+    <Copyright>2023 Horizon Managed Services</Copyright>
+    <PackageProjectUrl>https://github.com/hznmanaged/Horizon-Halo</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PowerShellStandard.Library" Version="5.1.1" />
+    <PackageReference Include="System.Text.Json" Version="7.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Horizon.Halo\Horizon.Halo.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Horizon.Common">
+      <HintPath>..\lib\Horizon.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
